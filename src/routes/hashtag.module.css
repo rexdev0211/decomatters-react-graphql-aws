@@ -1,0 +1,144 @@
+.noResultsContainer {
+  position: relative;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.noResultsContainer ul {
+  text-align: left;
+}
+ul.popularHashTagUL {
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 100px;
+  min-width: 900px;
+}
+li.hashtagList {
+  float: left;
+  list-style: none;
+  position: relative;
+  margin: 10px 10px;
+}
+
+li.hashtagList:hover img.hashtagImg {
+  -webkit-filter: brightness(0.3);
+  filter: brightness(0.3);
+}
+
+li.hashtagList img.hashtagImg {
+  width: 172px;
+  height: 72px;
+  object-fit: cover;
+  background-color: #ff5e6d;
+  filter: brightness(50%);
+  border-radius: 5px;
+  z-index: 0;
+}
+
+li.hashtagList p {
+  position: absolute;
+  color: white;
+  text-align: center;
+
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  z-index: 1;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.popularHashTagUL li.popularP {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  list-style: none;
+  /* identical to box height */
+
+  color: #000000;
+  text-align: left;
+  padding: 10px;
+}
+
+ul.popularHashTagUL ul::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  height: 0px;
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.popularHashTagUL ul {
+  padding: 0;
+  margin: 0;
+}
+.noResultsContainer p.msg {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 20%;
+  /* identical to box height, or 5px */
+
+  color: #000000;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1024px) {
+  .noResultsContainer ul {
+    text-align: center;
+  }
+  ul.popularHashTagUL {
+    list-style-type: none;
+    margin: 40px 0;
+    padding: 0;
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+    min-width: unset;
+  }
+
+  ul.popularHashTagUL ul {
+    overflow-y: scroll;
+  }
+
+  ul.popularHashTagUL li.hashtagList {
+    display: inline-block;
+    float: unset;
+  }
+
+  ul.popularHashTagUL ul {
+  }
+
+  .noResultsContainer p.msg {
+    font-size: 16px;
+  }
+
+  .popularHashTagUL li.popularP {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .popularHashTagUL ul {
+    padding: unset;
+    margin: unset;
+  }
+
+  li.hashtagList:hover img.hashtagImg {
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+  }
+}

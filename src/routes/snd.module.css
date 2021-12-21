@@ -1,0 +1,272 @@
+.po {
+  padding: 60px 15%;
+}
+
+.po div {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  color: #000000;
+}
+.po div h1 {
+  line-height: normal;
+}
+.po ol li {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  color: #000000;
+  transition: all 0.3s;
+}
+.po a {
+  cursor: pointer;
+  color: #ff5e6d;
+}
+
+.mc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: auto;
+  min-height: 200px;
+}
+
+.sc {
+  margin: 40px 20px;
+  width: 998px;
+}
+
+.bc {
+  position: relative;
+  font-family: 'Helvetica Neue', sans-serif !important;
+  letter-spacing: 0.01em !important;
+  line-height: 24px !important;
+  color: #333;
+}
+
+.bbc {
+  position: absolute;
+  width: 100%;
+  height: 269px;
+  overflow: hidden;
+}
+
+.bcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /*min-width: auto;*/
+  z-index: 10;
+}
+
+.bsc {
+  position: relative;
+  margin-top: 78px;
+  background-color: white;
+  width: 998px;
+  padding: 80px;
+}
+
+.bsc h1 {
+  font-size: 1.5em;
+}
+
+.bbci {
+  width: 100%;
+  min-height: 269px;
+  /*object-fit: cover;*/
+}
+
+.bbn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  box-shadow: none;
+  border-radius: 50%;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.bbn:hover {
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.15);
+}
+
+.bbn.blogButton {
+  top: 120px;
+  z-index: 1;
+}
+
+.bbn.blogButton path {
+  /*fill: #fff;*/
+  stroke: #000;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bbn {
+    display: none;
+  }
+
+  .bsc {
+    padding: 25px;
+    margin-top: 200px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .mc {
+    min-width: 1038px;
+  }
+  .bsc h1 {
+    font-size: 2em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+div.blogListContainer {
+  text-align: center;
+}
+
+ul.blogCatList {
+  /*width: 100%;*/
+  display: inline-block;
+  text-align: center;
+  margin: 20px auto;
+  overflow: hidden;
+  overflow-x: scroll;
+
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+ul.blogCatList::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+ul.blogCatList {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+ul.blogCatList li {
+  display: inline;
+  margin-right: 25px;
+  list-style: none;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /*line-height: 22px;*/
+  /* identical to box height, or 137% */
+
+  text-align: center;
+  /*letter-spacing: 0.01em;*/
+
+  color: #828282;
+}
+
+ul.blogCatList li a {
+  text-decoration: none;
+  color: #828282;
+}
+
+ul.blogCatList li.selected a {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 137% */
+
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+  border-bottom: 3px solid #000000;
+}
+.mc.blog {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.mc.blog.blogShow {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bbn {
+    display: none;
+  }
+
+  .bsc {
+    padding: 30px;
+    margin-top: 200px;
+  }
+
+  div.blogListContainer {
+    width: 99%;
+    position: relative;
+    height: 50px;
+  }
+
+  ul.blogCatList {
+    width: 90%;
+  }
+}
+
+/* IFRAME FOR BLOG */
+.blogIframe,
+.externalPagesIframe {
+  position: fixed;
+  overflow: hidden;
+  height: 117%;
+  width: 100%;
+  top: -80px;
+}
+
+.externalPagesIframe {
+  top: -50px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* IFRAME FOR BLOG */
+  .blogIframe,
+  .externalPagesIframe {
+    position: fixed;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+  }
+
+  .externalPagesIframe {
+    top: 50px;
+  }
+}

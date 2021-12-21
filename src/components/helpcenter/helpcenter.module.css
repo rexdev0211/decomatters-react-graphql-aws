@@ -1,0 +1,144 @@
+h1,
+h2,
+h3 {
+  cursor: default;
+}
+.spacer {
+  padding-top: 0px;
+}
+
+.header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+  background-image: url(../../assets/faq/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: right;*/
+  position: relative;
+}
+
+.header .text h1 {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 22px;
+  /* identical to box height, or 61% */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.header.padding .text h1 {
+  padding-bottom: 35px;
+}
+
+.header .text span {
+  font-family: SignPainter;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 22px;
+  /* identical to box height, or 41% */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.helpCenterContainer {
+  flex-direction: column;
+}
+
+.helpCenterContainer .item {
+  /*margin: 10px 0;*/
+  padding: 0 50px;
+  margin: 10px 0 10px -20px;
+  font-size: 20px;
+}
+
+.helpCenterContainer a {
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+.helpCenterContainer a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.helpCenterContainer .item ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.helpCenterContainer .item ul li {
+  list-style: none;
+  margin: 15px 0;
+}
+
+.helpCenterContainer .seeMore {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.helpCenterContainer .seeMore a {
+  text-decoration: underline;
+}
+
+.header .text h1 {
+  font-size: 24px;
+  width: 100%;
+}
+
+.helpCenterFooter {
+  display: none;
+}
+
+.mainSlimHeader {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .header .text h1 {
+    font-size: 36px;
+  }
+  .helpCenterContainer {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .helpCenterContainer .item {
+    flex-grow: 1;
+    height: 100%;
+    margin: 50px auto;
+    padding: 0 0 0 130px;
+    width: 200px;
+    font-size: 16px;
+  }
+
+  .helpCenterContainer .seeMore {
+    margin-bottom: 0;
+  }
+  .helpCenterFooter {
+    display: block;
+  }
+
+  .spacer {
+    padding-top: 60px;
+  }
+  .mainSlimHeader {
+    display: block;
+  }
+}

@@ -1,0 +1,7 @@
+export const LIKE_CLICKED = 'LIKE_CLICKED'
+export const LIKE_UNCLICKED = 'LIKE_UNCLICKED'
+export const SET_LIKES = 'SET_LIKES'
+export const GET_LIKES = 'GET_LIKES'
+export const RESET_LIKES = 'RESET_LIKES'
+export const ALREADY_LIKED = 'ALREADY_LIKED'
+export const ALREADY_UNLIKED = 'ALREADY_UNLIKED'

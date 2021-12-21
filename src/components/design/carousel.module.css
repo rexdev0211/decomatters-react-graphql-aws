@@ -1,0 +1,208 @@
+.related {
+  background: #fff;
+  grid-column: span 2;
+  padding: 0 0 0 85px;
+  position: relative;
+  user-select: none;
+  margin-top: 30px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.related :focus {
+  outline: none;
+}
+.related .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.related .content ul {
+  width: 100%;
+  padding-left: 0;
+}
+
+.related .content ul li {
+  list-style: none;
+  display: inline-block;
+  height: 120px;
+  text-align: center;
+  margin-right: 30px;
+  user-select: none;
+}
+
+.related .content ul li img,
+.related img {
+  width: 294px;
+  height: 294px;
+  /*margin-right: 24px;*/
+}
+
+.related .relatedDesignLi {
+  position: relative;
+  height: 294px !important;
+  width: 294px !important;
+
+  float: left;
+  margin-right: 20px;
+}
+
+.related .content li.relatedDesignLi {
+  position: relative;
+  height: 100%;
+}
+
+.related .content li.relatedDesignLi .carouselSmall,
+.related .carouselSmall {
+  display: none;
+}
+
+.related .content li.relatedDesignLi .carouselNormal,
+.related .carouselNormal {
+  display: block;
+  margin-left: 25px;
+  height: 300px;
+}
+
+/*.related .prevSlide,*/
+/*.related .nextSlide {*/
+/*    position: absolute;*/
+/*    right: 70px;*/
+/*    cursor: pointer;*/
+/*    top: 220px;*/
+/*    border-radius: 40px;*/
+/*    padding: 20px;*/
+/*    background: #ffffff;*/
+/*    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);*/
+/*    width: 15px;*/
+/*}*/
+
+.related .prevSlide,
+.related .nextSlide {
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+  top: 190px;
+  border-radius: 40px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.35);
+  width: 15px;
+}
+
+.related .nextSlide {
+}
+.related .prevSlide {
+  /*display: none;*/
+  left: 120px;
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.35);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.related h2 {
+  margin-left: 25px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .related {
+    background: #fff;
+    grid-column: span 1;
+    padding: 5px 20px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+  }
+
+  .related h2 {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 5px;
+    /* identical to box height */
+
+    color: #000000;
+  }
+
+  .related .content {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20px;
+    position: relative;
+  }
+
+  .related .content ul {
+    white-space: nowrap;
+  }
+
+  .related .content ul li {
+    margin-right: 10px;
+  }
+
+  .related .content ul li img,
+  .related img {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    width: 180px;
+    height: 160px;
+    /*margin-right:10px;*/
+  }
+
+  .related .relatedDesignLi {
+    position: relative;
+    width: auto !important;
+  }
+
+  .related .content li.relatedDesignLi .carouselSmall,
+  .related .carouselSmall {
+    display: block;
+    height: 200px;
+  }
+
+  .related .content li.relatedDesignLi .carouselNormal,
+  .related .carouselNormal {
+    display: none;
+  }
+
+  .related .prevSlide,
+  .related .nextSlide {
+    right: 20px;
+    top: 45%;
+    width: 10px;
+    height: 10px;
+  }
+
+  .related .prevSlide {
+    left: 20px;
+    display: block;
+    z-index: 2;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .related .content ul li img,
+  .related img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) {
+  .related .content ul li img,
+  .related img {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    width: 220px;
+    height: 200px;
+    /*margin-right:10px;*/
+  }
+}

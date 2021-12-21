@@ -1,0 +1,31 @@
+.pfb {
+  background: transparent;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.pfb:hover {
+  background: #eee;
+}
+
+.pfb:active {
+  background: #ffbbc1;
+}
+
+.pfbi {
+  width: 42px;
+  height: 42px;
+  background-size: cover;
+  border-radius: 40px;
+}

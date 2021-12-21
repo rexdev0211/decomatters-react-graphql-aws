@@ -1,0 +1,16 @@
+.mainHeader {
+  position: fixed;
+  z-index: 5;
+  background-color: #fff;
+  width: 100%;
+}
+
+.headerSeparator {
+  padding-bottom: 110px;
+}
+
+@media only screen and (max-width: 600px) {
+  .headerSeparator {
+    padding-bottom: 110px;
+  }
+}

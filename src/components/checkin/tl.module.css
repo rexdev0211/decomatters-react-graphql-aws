@@ -1,0 +1,155 @@
+.taskList {
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: 12px;
+}
+
+.taskHeader {
+  margin-bottom: 24px;
+}
+
+.taskContent {
+  overflow-y: scroll;
+  height: 565px;
+}
+
+.taskContent::-webkit-scrollbar {
+  width: 6px;
+}
+
+.taskContent::-webkit-scrollbar-thumb {
+  width: 4px;
+  height: 274px;
+  background: #e5e5e5;
+  border-radius: 49px;
+}
+
+.taskCard {
+  width: 480px;
+  height: 166px;
+  margin-bottom: 16px;
+}
+
+.taskCard * {
+  /* place all children of taskCard in front of taskCardOverlay */
+  z-index: 200;
+}
+
+.taskCardOverlay {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(58, 18, 18, 0.8) 0.25%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.625;
+  z-index: 100;
+  transition: opacity 0.5s;
+  border-radius: 16px;
+  height: 166px;
+  width: 480px;
+}
+
+.taskCard:hover .taskCardOverlay {
+  opacity: 1;
+}
+
+.taskTitle {
+  margin-top: 24px;
+  margin-left: 24px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.progressBar {
+  height: 8px;
+  width: 92px;
+  border-radius: 3.5px;
+  margin-left: 24px;
+  background: #ededed;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 8px;
+  position: relative;
+}
+
+.progressBarClaimed {
+  composes: progressBar;
+  background: #c4c4c4;
+}
+
+.progressTracker {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.progressCount {
+  margin-left: 6px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.progressCountClaimed {
+  composes: progressCount;
+  color: #c4c4c4;
+}
+
+@media (max-width: 500px) {
+  /* stretch the task cards and use smaller fonts if the width is less than 500px */
+  .taskList {
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+
+  .taskHeader {
+    margin-bottom: 16px;
+  }
+
+  .taskContent {
+    height: auto;
+    overflow-y: hidden;
+  }
+
+  .taskCard {
+    height: 140px;
+    width: 100%;
+  }
+
+  .taskCardOverlay {
+    height: 140px;
+    width: 100%;
+  }
+
+  .taskTitle {
+    margin-top: 14px;
+    font-size: 18px;
+  }
+
+  .progressTracker {
+    margin-top: 6px;
+  }
+
+  .progressBar {
+    height: 7px;
+    width: 78px;
+  }
+
+  .progressCount {
+    margin-top: 3px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1000px), (min-width: 500px) and (max-height: 648px) {
+  /* center the items cards if the fullscreen modal is used and the width is greater than 600px */
+  .taskContent {
+    height: auto;
+    overflow-y: hidden;
+  }
+  .taskList {
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+  }
+}

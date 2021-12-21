@@ -1,0 +1,206 @@
+.followModal {
+  height: 1024px;
+  max-height: 90vh;
+  width: 1024px;
+  background: #ffffff;
+  border-radius: 16px;
+  position: relative;
+}
+
+.followHeader {
+  margin: 60px 60px 0px 42px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.designerList {
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 24px;
+  overflow-y: scroll;
+  height: 885px;
+}
+
+.designerCard {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 45px;
+  margin-right: 73px;
+}
+
+.designerProfile {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-size: cover;
+}
+
+.designerDetails {
+  margin-left: 40px;
+}
+
+.designerName {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.designerFollowerCount {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color: #8b8b8b;
+}
+
+.followButton {
+  margin-top: 20px;
+
+  width: 114px;
+  height: 36px;
+
+  border: 2px solid #ef6971;
+  border-radius: 32px;
+  font-family: Helvetica Neue;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
+  color: #ef6971;
+  transition: all 0.5s;
+}
+
+.followButton:hover {
+  background-color: #ef6971;
+  color: #ffffff;
+}
+
+.followButtonFollowing {
+  composes: followButton;
+  color: #8b8b8b;
+  background-color: #ededed;
+  border-color: #ededed;
+}
+
+.followButtonFollowing:hover {
+  color: #8b8b8b;
+  background-color: #ededed;
+}
+
+.inspirations {
+  display: flex;
+  margin-left: auto;
+}
+
+.inspirationImage {
+  height: 106px;
+  width: 106px;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 14px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+@media (max-width: 1000px), (max-height: 648px) {
+  .followModal {
+    height: calc(100vh - 60px);
+    max-height: none;
+    width: 100vw;
+    border-radius: 0;
+    overflow-y: scroll;
+  }
+
+  .closeButton {
+    right: 8px;
+  }
+
+  .followHeader {
+    margin: 16px 28px 0px 16px;
+    font-size: 18px;
+  }
+
+  .designerList {
+    margin-top: 28px;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: auto;
+    overflow-y: visible;
+  }
+
+  .designerCard {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .designerCard:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .designerProfile {
+    height: 72px;
+    width: 72px;
+  }
+
+  .designerDetails {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 72px;
+    width: calc(100% - 102px);
+  }
+
+  .designerName {
+    height: 23px;
+    max-width: calc(100vw - 224px);
+    overflow: hidden;
+  }
+
+  .designerFollowerCount {
+    max-width: calc(100vw - 224px);
+    margin-top: 12px;
+  }
+
+  .followButton {
+    height: 32px;
+    width: 90px;
+    font-size: 12px;
+    margin-left: auto;
+    align-self: flex-end;
+  }
+
+  .inspirations {
+    margin-left: 0;
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+  }
+
+  .inspirationImage {
+    height: 78px;
+    width: 78px;
+    margin-left: 10px;
+    flex: 0 1 auto;
+  }
+
+  .inspirationImage:first-child {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px), (min-width: 1000px) and (max-height: 648px) {
+  /* fixes conflicts with other responsive style changes */
+  .followModal {
+    margin-top: -60px;
+  }
+}

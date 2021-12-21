@@ -1,0 +1,220 @@
+.socialNetworkContainer {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: max-content;
+}
+
+.socialNetworkContainer ul {
+  padding: 0;
+  margin: 0;
+}
+
+.socialNetworkContainer ul li {
+  float: left;
+  list-style: none;
+  margin-right: 25px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.socialNetworkContainer ul li button {
+  outline: none;
+  border: none;
+}
+
+.socialNetworkContainer ul li.copyLink {
+  margin-right: 0px;
+}
+
+.socialNetworkContainer ul li svg {
+  width: 20px;
+  height: 20px;
+}
+
+.socialNetworkContainer.box .copyLinkIcon path,
+.socialNetworkContainer .copyLinkIcon:hover path {
+  fill: #ef6971 !important;
+}
+
+.socialNetworkContainer path {
+  fill: #8b8b8b;
+}
+
+.socialNetworkContainer.box .pins path,
+.socialNetworkContainer .pins:hover path {
+  fill: rgb(203, 33, 40) !important;
+}
+
+.socialNetworkContainer.box .fb path,
+.socialNetworkContainer .fb:hover path {
+  fill: rgb(59, 89, 152) !important;
+}
+
+.socialNetworkContainer.box .twtr path,
+.socialNetworkContainer .twtr:hover path {
+  fill: rgb(0, 172, 237) !important;
+}
+
+.socialNetworkContainer .mediaText {
+  display: none;
+}
+
+.socialNetworkContainer .mediaTextActive {
+  margin-top: 10px;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #333333;
+  display: block;
+}
+
+/* for box social network inspiration share */
+.socialNetworkContainer.box {
+  position: relative;
+  float: none;
+  text-align: center;
+}
+
+.socialNetworkContainer.box li {
+  margin-right: 25px;
+  padding: 20px;
+  user-select: none;
+}
+
+.socialNetworkContainer.box li .icon {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  padding: 1px;
+  height: 60px;
+  width: 60px;
+}
+.socialNetworkContainer.box li svg {
+}
+
+.socialNetworkContainer.box li:hover .icon {
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.15);
+}
+
+.socialNetworkContainer.box li button {
+  outline: none;
+  padding: 0px;
+  border-radius: 50%;
+  /*box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);*/
+  border: none;
+}
+
+.socialNetworkContainer.box li button:hover {
+  /*box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.15);*/
+}
+
+.socialNetworkContainer.box li button svg {
+  outline: none;
+  padding: 15px;
+}
+
+.socialNetworkContainer.box .twtr,
+.socialNetworkContainer.box .fb,
+.socialNetworkContainer.box .pins,
+.socialNetworkContainer.box ul li.copyLink svg {
+  width: 30px;
+  height: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .socialNetworkContainer.box {
+    position: relative;
+    float: none;
+    text-align: center;
+  }
+
+  .socialNetworkContainer.box li {
+    float: left;
+    margin-right: 20px;
+    padding: 0;
+    user-select: none;
+    width: 100%;
+    /*box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);*/
+    padding: 18px 10px;
+    border-bottom: 1px solid #f2f2f2;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+  }
+
+  .socialNetworkContainer.box .twtr,
+  .socialNetworkContainer.box .fb,
+  .socialNetworkContainer.box .pins,
+  .socialNetworkContainer.box ul li.copyLink svg {
+    width: 25px;
+    height: 25px;
+    float: left;
+    border-radius: inherit;
+  }
+
+  .socialNetworkContainer.box li button {
+    outline: none;
+    padding: 0px;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    float: left;
+  }
+
+  .socialNetworkContainer.box li .icon,
+  .socialNetworkContainer.box li:hover .icon {
+    box-shadow: none;
+    border-radius: 50%;
+    float: left;
+  }
+
+  .socialNetworkContainer.box li svg,
+  .socialNetworkContainer.box li:hover svg {
+    box-shadow: none;
+  }
+
+  .socialNetworkContainer .mediaTextActive {
+    margin-left: 20px;
+    margin-top: 0;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 55px;
+    font-weight: bold;
+    /* identical to box height */
+
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #333333;
+    float: left;
+  }
+
+  .socialNetworkContainer .socialComponentContainer {
+    width: 100%;
+  }
+}
+
+/*iphone 5*/
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+  .socialNetworkContainer.box li {
+    padding: 5px;
+  }
+}

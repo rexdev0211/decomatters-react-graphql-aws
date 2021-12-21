@@ -1,0 +1,83 @@
+Let’s face it, most of us are on Instagram far more than we’d like to admit. Instagram has grown to be one of the most convenient platforms for interior designers to share their work and build portfolios for future clients. Additionally, interior designers are developing a fan base of everyday Instagram users as the app presents a neverending scroll of inspiring and dreamy living spaces waiting to be archived for current and future interior design projects. We’ve curated a list of 10 of the best interior design Instagram accounts you’ll love to be following in 2019.
+
+<iframe width="100%" height="700px" frameborder="0" src="https://www.instagram.com/p/Bvo9bRxFcrZ/embed/" style="box-sizing: border-box; border: 0px; font-family: Times; font-size: 16px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+Joyce Downing Pickens
+
+Los Angeles based interior designer and owner of JDP Interiors, Joyce Downing Pickens’ Instagram is your go-to place for a calm and relaxing interior design style. Describing her own style as a mix between modern and traditional, Joyce creates beautiful and serene spaces and takes pride in providing her clients with exceptional customer service and project management. Her work has been featured in publications such as Elle Decor, LA Times, and Domino. As you scroll through her Instagram, you’ll notice that Joyce’s style tends to gravitate towards simplistic, earth-toned colors paired with well-crafted furniture and vintage pieces. Her interior design style is inspired by her Texas roots and she is always on the hunt for soft leathers, sandy stone, or rustic pieces of wood.
+
+<iframe width="100%" height="700px" frameborder="0" src="https://www.instagram.com/p/BwxD-gnFa1Q/embed/" style="box-sizing: border-box; border: 0px; font-family: Times; font-size: 16px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+Amber Lewis
+
+Amber Lewis will fill your feed with awe-inspiring interior design skills and a great personality. Known for her California Eclectic style, she describes it as a mix of beach-y and worldly while being comfortable and approachable. Not only are her Instagram photos entertaining, but her blog and Instagram captions are just as enjoyable. Our favorite part of her humor is expressed through the names she gives her projects, such as “Client Tupac Meets Biggie to Decorate the Diggies,” “Client For Reals the Nicest People on the Planet,” “Client of the Mid Century,” and “Client Holla at La Jolla”. Amber is also the owner of Amber Interiors, her full-service residential design studio assisting clients with any interior design challenges they may run into and she runs Shoppe Amber Interiors, a brick-and-mortar retail shop where you can shop her interior design style in store or online.
+
+<iframe width="100%" height="700px" frameborder="0" src="https://www.instagram.com/p/BwyKwQhHXe1/embed/" style="box-sizing: border-box; border: 0px; font-family: Times; font-size: 16px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+Justina Blakeney
+
+Take a trip to the Jungalow where Justina Blakeney adds color to your life with her fun take on the “boho” aesthetic, which she describes as a combination of jungle and bungalow. This Los Angeles based designer and author of the New York Times bestseller, The New Bohemians: Cool and Collected Homes, is known to decorate wild by mixing patterns and textures that some may not think of doing. A believer that good design increases one’s quality of life, her Instagram brings you a unique style in 2019 where vintage pieces, bold patterns and vibrant colors, plants, good light and fresh air, recycling, and diversity all have a home. Justina not only shares her style through interior design, but also shares it through her collections you can shop at Anthropologie, Target, Living Spaces, Pottery Barn Kids and more.
+
+<iframe width="100%" height="700px" frameborder="0" src="https://www.instagram.com/p/Bv1QoTQFDvG/embed/" style="box-sizing: border-box; border: 0px; font-family: Times; font-size: 16px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+Hilton Carter
+
+Calling all plant lovers! Think you’re plant-obsessed? Wait until you pop over to Hilton Carter’s Instagram account and experience his unique artistry and breathtaking patience and ability to keep his family of plants flourishing and looking healthier than ever. This filmmaker, producer, and obvious plant stylist has a passion for plants that goes beyond one’s excitement to add a little greenery to their home. As he beautifully captures and shares on Instagram, you will come across photos of his Baltimore loft apartment he shares with his wife that is filled with over 180 plants. Yes, we said 180. With careful thought and consideration of light placement and watering schedules, Hilton’s Instagram radiates his love and appreciation for all things plants that can’t help but leave you refreshed and inspired.
+
+<iframe width="100%" height="700px" frameborder="0" src="https://www.instagram.com/p/BrnHSJKBxzJ/embed/" style="box-sizing: border-box; border: 0px; font-family: Times; font-size: 16px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+Sarah Yates Mora
+
+The epitome of the California cool interior design style in 2019, Sarah Yates Mora is the Instagram account to follow for simple and clean, but gorgeous interiors. Through her amazing photography, she captures every little detail that adds personality to a space and makes you fall in love with the simple things. Sarah truly embraces natural lighting and makes you feel at home through her open spaces that invite every inch of sunlight in. Scroll down her Instagram feed to find a full house tour of her old dreamy and elegant home in San Diego, California. In her recent posts, you’ll get a sneak peek of her process of building and styling her new home in Ojai, California.
+
+<iframe width="100%" height="700px" frameborder="0" src="https://www.instagram.com/p/BtUaI1uFVv3/embed/" style="box-sizing: border-box; border: 0px; font-family: Times; font-size: 16px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+Dabito
+
+Dabito is the fun and fabulous best friend you need on your Instagram feed because he’s always smiling and spreading positivity in his captions. A blogger, photographer (who photographed for Justina Blakeney’s best selling book), printmaker, graphic designer, and stylist, Dabito is multi-talented and it shows through his brilliant photography on Instagram. His eclectic style mixes modern and vintages pieces while incorporating boho neutrals and vibrant colors, creating a space that is never boring and always gives you something to talk about. Follow his interior design Instagram to step into his beautiful New Orleans oasis that he unfortunately recently sold in 2019 with his partner. However, the best part is that we now get to see the upcoming interior design projects of his Los Angeles home, including the amazing new laundry room with a built-in dog shower!
+
+<iframe width="100%" height="700px" frameborder="0" src="https://www.instagram.com/p/BvND1xUgJBL/embed/" style="box-sizing: border-box; border: 0px; font-family: Times; font-size: 16px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+Mollie Openshaw
+
+The one word to describe how Mollie Openshaw’s Instagram account makes you feel is airy. This Utah-based interior designer and mother of two enjoys creating spaces that are appealing, but also functional. Her contemporary coastal eclectic style showcases bright spaces filled with natural lighting. Mollie’s love for interior design began when she was about 12 years old as she was visualizing the possible transformation of rooms in her home before her mom let her make it a reality in high school. Owner of Design Loves Detail, she takes pride in her interior design and ability to create fresh and airy spaces, especially in her home. Follow Mollie’s Instagram to see her gorgeous home along with her adorable family!
+
+<iframe width="100%" height="700px" frameborder="0" src="https://www.instagram.com/p/BvCujV4HO9T/embed/" style="box-sizing: border-box; border: 0px; font-family: Times; font-size: 16px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+Sarah Sherman Samuel
+
+Sarah Sherman Samuel sold her Los Angeles home, but is now sharing her exciting renovations and interior designs for her Michigan home over on her Instagram. This Instagram feed is the one to follow if you want to be inspired by a design style and aesthetic that is modern, relaxed, clean but still warm, and appreciates sprinkled elements of the unexpected. One of her most famous and favorite projects to this day in 2019 is her interior design project where she decorated Mandy Moore’s entire home. This must-see project expanded over a year-long was featured in Architectural Digest and was a proud moment for Sarah. From the laundry room to the master bedroom, every room was drool-worthy and showcased Sarah’s talents. Follow her on Instagram if you want to see more of her stunning designs as she creates the perfect balance between simple clean colors and lines with pops of colors that make the biggest impact. Her unique ideas and concepts are fun to witness on Instagram as well, such as the built-in sofas she designed in a few homes, including Mandy Moore’s. Sarah also has a signature line of doors for IKEA cabinets in collaboration with Semihandmade which is shown through many of her designs on Instagram.
+
+<iframe width="100%" height="500px" frameborder="0" src="https://www.instagram.com/p/BtjCl1-FqsB/embed/" style="box-sizing: border-box; border: 0px; font-family: Times; font-size: 16px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+Hannah and Chayce Wilson
+
+Who doesn’t love a dynamic duo? Hannah and Chayce are an adorable couple currently residing in Dallas, Texas. They tied the knot at age 18 and 21 and are owners of a thriving design consultation and renovation business called Blank Slate Reno. Head over to their blog to find out more about their relationship and interesting story that got them to where they are today, but for now, their Instagram is enough to make you want to follow along with them. You’ll find snippets of their projects on their Instagram, but the most featured project is their beautiful condo where they emphasized the natural lighting by painting everything white before adding contrasting black accent walls, hardware, and cabinetry to make the space pop. Although the condo was one of the smaller places they renovated, they created a space that will leave you speechless and possibly be one of your favorite and most satisfying before and after images of interior design projects in 2019.
+
+<iframe width="100%" height="700px" frameborder="0" src="https://www.instagram.com/p/BqomL_OHW8R/embed/" style="box-sizing: border-box; border: 0px; font-family: Times; font-size: 16px; font-style: normal; font-weight: 400; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline; overflow-wrap: break-word; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></iframe>
+
+
+
+Kate Watson-Smyth
+
+Kate Watson-Smyth was named one of the top 10 interior design accounts to follow by Vogue. She is a British author, blogger, and journalist, who has been writing about property, interiors, and design in national newspapers for the last 20 years. Kate runs an award-winning blog that most recently, won as the number one UK Interiors Blog by Vuelio. If this does not give you enough reason to follow her, we’ve got more! Kate’s Instagram embodies a woman with a passion for life and a bold interior design style, which she describes as Urban Glamour or Modern Rustic, that she is never afraid to express. Her philosophy is that your home should tell your story and it should make your heart sing when you walk through the front door. You’ll find images of her unique home, which was completely renovated and built from two rental flats, throughout her feed and understand why it has been featured in The Wall Street Journal, Heart Home magazine, various product shoots, and more. Her lighthearted and relatable captions make you feel comfortable and right at home.
+
+Are these interior design Instagram accounts inspiring you to design, but you have no idea where to start or maybe you just feel like designing spaces for fun? The [free DecorMatters app](https://decormatters.app.link/bestinteriordesigninstagram2019) allows you to design spaces virtually before deciding to start your next interior design project, but it also allows fellow interior design lovers to create spaces for fun and share with a community of like-minded people.

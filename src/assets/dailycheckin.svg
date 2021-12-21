@@ -1,0 +1,22 @@
+<svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter_checkin)">
+<path d="M22.7532 5.15332H7.24677C5.45648 5.15332 4 6.51204 4 8.18215V22.6478C4 24.3179 5.45648 25.6766 7.24677 25.6766H22.7532C24.5435 25.6766 26 24.3179 26 22.6478V8.18215C26 6.51208 24.5435 5.15332 22.7532 5.15332V5.15332Z" fill="#F5F5F5"/>
+<path d="M22.7532 5.15332H7.24677C5.45648 5.15332 4 6.51204 4 8.18215V12.1406C4 12.5327 4.34075 12.8506 4.76114 12.8506H25.2389C25.6592 12.8506 26 12.5327 26 12.1406V8.18215C26 6.51208 24.5435 5.15332 22.7532 5.15332V5.15332Z" fill="#FF5E6D"/>
+<path d="M9.98571 19.088C7.26722 20.5042 5.34745 21.2333 4 21.5218V22.6478C4 24.3179 5.45648 25.6766 7.24677 25.6766H22.7532C24.5435 25.6766 26 24.3179 26 22.6478V17.7798C22.6668 16.4418 17.0101 15.4286 9.98571 19.088V19.088Z" fill="white"/>
+<path d="M10.0351 8.727C9.61468 8.727 9.27393 8.40912 9.27393 8.01696V3.71004C9.27393 3.31788 9.61468 3 10.0351 3C10.4554 3 10.7962 3.31788 10.7962 3.71004V8.01696C10.7962 8.40912 10.4554 8.727 10.0351 8.727Z" fill="#686767"/>
+<path d="M19.9652 8.727C19.5449 8.727 19.2041 8.40912 19.2041 8.01696V3.71004C19.2041 3.31788 19.5449 3 19.9652 3C20.3856 3 20.7264 3.31788 20.7264 3.71004V8.01696C20.7264 8.40912 20.3856 8.727 19.9652 8.727Z" fill="#686767"/>
+</g>
+<circle cx="21" cy="22" r="5" fill="#FF5E6D"/>
+<path d="M19 22.5L20.3333 24L23 21" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter_checkin" x="0" y="0" width="30" height="30.6766" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

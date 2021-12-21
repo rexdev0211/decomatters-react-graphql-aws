@@ -1,0 +1,162 @@
+.checkInModal {
+  display: flex;
+}
+
+.congratsScreen {
+  height: 632px;
+  width: 993px;
+  border-radius: 16px;
+  background-size: 100%;
+}
+
+.coins {
+  margin-top: 150px;
+  flex: none;
+}
+
+.congratsButton {
+  margin-top: 20px;
+}
+
+.rewardPanel {
+  height: 632px;
+  width: 443px;
+  background-image: url('/src/assets/bubblebg.png');
+  background-size: cover;
+  background-color: #fff1f2;
+  border-radius: 16px 0 0 16px;
+  position: relative;
+}
+
+.rewardHeader {
+  margin-top: 21px;
+  margin-left: 50px;
+  position: relative;
+  align-self: start;
+  font-size: 18;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
+.welcomeMessage {
+  margin-top: 65px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.profileCircle {
+  margin-top: 50px;
+  width: 172px;
+}
+
+.coinMessage {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.taskPanel {
+  height: 632px;
+  width: 550px;
+  background: #ffffff;
+  border-radius: 0 16px 16px 0;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+@media (max-width: 1000px), (max-height: 648px) {
+  .checkInModal {
+    flex-direction: column;
+    overflow: scroll;
+    height: calc(100vh - 60px);
+  }
+
+  .congratsScreen {
+    width: 100%;
+    height: calc(100vh - 60px);
+    border-radius: 0;
+    background-size: 100% 30vh, 100%;
+    overflow: auto;
+  }
+
+  .coins {
+    margin-top: calc(30vh - 136px);
+  }
+
+  .congratsButton {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .rewardPanel {
+    height: 310px;
+    width: 100vw;
+    border-radius: 0;
+    flex: none;
+  }
+
+  .rewardHeader {
+    margin-top: 16px;
+  }
+
+  .welcomeMessage {
+    margin-top: 166px;
+    font-size: 18px;
+  }
+
+  .profileCircle {
+    position: absolute;
+    top: 36px;
+    transform: scale(0.75);
+    margin: 0;
+  }
+
+  .coinMessage {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+
+  .timer {
+    display: none;
+  }
+
+  .taskPanel {
+    width: 100vw;
+    border-radius: 0;
+    height: auto;
+  }
+
+  .closeButton {
+    top: -296px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px), (min-width: 1000px) and (max-height: 648px) {
+  /* fixes conflicts with other responsive style changes */
+  .checkInModal {
+    margin-top: -60px;
+  }
+
+  .congratsScreen {
+    margin-top: -60px;
+  }
+}
+
+@media (max-height: 500px) {
+  /* hides coins when vertical height is to small to display entire congratulations message */
+  .coins {
+    height: 20vh;
+    visibility: hidden;
+    flex: 0 1 auto;
+  }
+
+  .congratsScreen {
+    background-size: 0, 100%;
+  }
+}

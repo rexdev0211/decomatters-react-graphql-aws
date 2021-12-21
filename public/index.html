@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="DecorMatters - Design Your Dream Home at Your Fingertips."
+    />
+    <meta
+      property="og:title"
+      content="DecorMatters - Design Your Dream Home at Your Fingertips. "
+    />
+    <meta
+      property="og:description"
+      content="Discover home decor ideas and interior design inspiration. Shop your favorite furniture stores and socialize with other interior designers."
+    />
+    <meta property="og:site_name" content="DecorMatters" />
+    <meta
+      property="og:image"
+      content="https://dm-webapp-prod.s3.amazonaws.com/decor1.jpg"
+    />
+    <meta name="google-site-verification" content="jKczRaRnxNYZ6dXPs_WtUKNnOt7CJBn6GJRZq0yLs4A" />
+    <!-- SEO -->
+    <meta name="keywords" content="decormatters,decor matters,app,home design,interior design,home decor ideas,living room ideas,room decor,furniture stores,home decor,diy,interior design apps,decorating apps,home goods,room decor,design home game,Pepperjam Verification">
+    <meta name="description" content="Discover home decor ideas and interior design inspiration. Shop your favorite furniture stores and socialize with other interior designers.">
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" crossorigin="use-credentials"/>
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>DecorMatters - Design Your Dream Home at Your Fingertips.</title>
+  <style>
+    body.no-scroll, body.no-scroll #root {
+      overflow: hidden;
+    }
+    
+    .full-page-loader {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    .full-page-loader > img {
+      animation: 0s infinite heartbeat;
+    }
+
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      25% { transform: scale(1.05); }
+      50% { transform: scale(1); }
+      75% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-63PE41WQMH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-63PE41WQMH');
+  </script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="full-page-loader">
+        <img height=1 src="/logo192.png" alt="Decor Matters logo" />
+      </div>
+    </div>
+    <div id="modal-root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

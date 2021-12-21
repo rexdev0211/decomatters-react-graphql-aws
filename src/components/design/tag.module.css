@@ -1,0 +1,294 @@
+.showPriceTagBtn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.showCTA svg circle,
+.showTags svg.show circle {
+  opacity: 0;
+}
+
+.tag {
+  width: 34px;
+  height: 34px;
+  /*visibility: hidden;*/
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.showTags .tag {
+  cursor: pointer;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 1000ms;
+}
+
+.tag.show {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+}
+
+.active .tag {
+  width: 40px;
+  height: 40px;
+}
+
+.active svg.tag circle {
+  fill: #ff5e6d;
+  fill-opacity: 1;
+}
+
+.productText {
+  position: absolute;
+  bottom: 12px;
+  left: 35px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.showProductTagBubble {
+  opacity: 0.5;
+}
+
+.showProductTagBubble,
+.productText {
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.showCTA .productText,
+.showTags .productText {
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+  -webkit-animation: slide-right 0.25s;
+  animation: slide-right 0.25s;
+  min-width: 200px;
+}
+
+.showCTA .showProductTagBubble,
+.showTags .showProductTagBubble {
+  visibility: visible;
+  opacity: 1;
+  -webkit-animation: slide-right 0.1s;
+  animation: slide-right 0.1s;
+}
+
+@-webkit-keyframes slide-right {
+  0% {
+    width: 10px;
+    opacity: 0;
+  }
+  30% {
+    width: 30px;
+    opacity: 0.3;
+  }
+  50% {
+    width: 50px;
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    width: 100px;
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    width: 10px;
+    opacity: 0;
+  }
+  30% {
+    width: 30px;
+    opacity: 0.3;
+  }
+  50% {
+    width: 50px;
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    width: 100px;
+  }
+}
+
+/* Tooltip using css */
+.showTags .tooltipLeft,
+.showTags .tooltipRight {
+  display: inline;
+  position: relative;
+  white-space: pre-line;
+}
+
+.showTags .tooltipLeft:after {
+  opacity: 0;
+  transition: 0.25s all;
+  content: '';
+  visibility: hidden;
+  background: transparent;
+  position: absolute;
+  padding: 0;
+  bottom: 46px;
+  left: 15%;
+  width: 100px;
+}
+
+.showTags .tooltipRight:after {
+  opacity: 0;
+  transition: 0.25s all;
+  content: '';
+  visibility: hidden;
+  background: transparent;
+  position: absolute;
+  padding: 0;
+  bottom: 46px;
+  right: 15%;
+  width: 100px;
+}
+
+/*.showTags .tooltipLeft:before {*/
+/*  opacity: 0;*/
+/*  visibility: hidden;*/
+/*  transition: 0.25s all;*/
+/*  border: solid;*/
+/*  border-color: #333 transparent;*/
+/*  border-width: 6px 6px 0 6px;*/
+/*  bottom: 40px;*/
+/*  content: '';*/
+/*  left: 45%;*/
+/*  position: absolute;*/
+/*}*/
+
+/*.showTags .tooltipRight:before {*/
+/*  visibility: visible;*/
+/*  opacity: 0;*/
+/*  transition: 0.25s all;*/
+/*  border: solid;*/
+/*  border-color: #333 transparent;*/
+/*  border-width: 6px 6px 0 6px;*/
+/*  bottom: 40px;*/
+/*  content: '';*/
+/*  left: 45%;*/
+/*  position: absolute;*/
+/*}*/
+
+.showTags .tooltipLeft:hover:after {
+  background: #333;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  bottom: 46px;
+  color: #fff;
+  content: attr(titles);
+  left: 15%;
+  padding: 5px 15px;
+  position: absolute;
+
+  width: 100px;
+  font-size: 10px;
+  opacity: 1;
+  transition-delay: 1.5s;
+  visibility: visible;
+}
+
+.showTags .tooltipRight:hover:after {
+  background: #333;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  bottom: 46px;
+  color: #fff;
+  content: attr(titles);
+  right: 15%;
+  padding: 5px 15px;
+  position: absolute;
+
+  width: 100px;
+  font-size: 10px;
+  opacity: 1;
+  transition-delay: 1.5s;
+  visibility: visible;
+}
+
+/*.showTags .tooltipLeft:hover:before {*/
+/*  border: solid;*/
+/*  border-color: #333 transparent;*/
+/*  border-width: 6px 6px 0 6px;*/
+/*  bottom: 40px;*/
+/*  content: '';*/
+/*  left: 45%;*/
+/*  position: absolute;*/
+
+/*  opacity: 0.8;*/
+/*  transition-delay: 1.5s;*/
+/*  visibility: visible;*/
+/*}*/
+
+/*.showTags .tooltipRight:hover:before {*/
+/*  border: solid;*/
+/*  border-color: #333 transparent;*/
+/*  border-width: 6px 6px 0 6px;*/
+/*  bottom: 40px;*/
+/*  content: '';*/
+/*  right: 45%;*/
+/*  position: absolute;*/
+
+/*  opacity: 0.8;*/
+/*  transition-delay: 1.5s;*/
+/*  visibility: visible;*/
+/*}*/
+
+.showTags .top.tooltipLeft:hover:after,
+.showTags .top.tooltipRight:hover:after {
+  bottom: -48px;
+  cursor: pointer;
+}
+
+/*.showTags .top.tooltipLeft:hover:before,*/
+/*.showTags .top.tooltipRight:hover:before {*/
+/*  bottom: -2px;*/
+/*  transform: scaleY(-1);*/
+/*  cursor: pointer;*/
+/*}*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .tag {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    /*visibility: hidden;*/
+    opacity: 0;
+    transition: visibility 0s linear 300ms, opacity 300ms;
+  }
+  .active .tag {
+    width: 28px;
+    height: 28px;
+  }
+
+  .showPriceTagBtn {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    height: 35px;
+    cursor: pointer;
+  }
+
+  .showPriceTagBtn svg.tag {
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  .productText {
+    font-size: 12px;
+    top: 8px;
+  }
+  .showTags .tooltipLeft:after,
+  .showTags .tooltipRight:after {
+    opacity: 0;
+    display: none;
+  }
+}

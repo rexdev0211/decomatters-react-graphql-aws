@@ -1,0 +1,12 @@
+.designerLinkContainer {
+  position: sticky;
+  bottom: 50px;
+  right: 75px;
+  text-align: center;
+}
+
+.designerLinkContainer button {
+}
+
+.designerLinkContainer:hover button {
+}

@@ -1,0 +1,135 @@
+.rg {
+  display: flex;
+  flex-direction: column;
+  min-height: auto;
+  align-items: stretch;
+}
+
+.hd {
+  padding-bottom: 20px;
+}
+
+.hd h1 {
+  margin-top: 0;
+}
+
+.ig {
+  flex-grow: 1;
+  flex-basis: auto;
+  height: 250px;
+  background-image: url(../../assets/images/signup.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+}
+
+.igt {
+  position: absolute;
+  left: auto;
+  right: 20px;
+  bottom: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+}
+
+.dml {
+  clip-path: url(#logo-only);
+  display: block;
+  fill: green;
+  margin: 13px 0 0 12px;
+}
+
+.fa {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: block;
+  flex-direction: column;
+  background-color: white;
+  padding: 40px 40px 0 40px;
+}
+
+.orw {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+}
+
+.orb {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.orbl {
+  background-color: #c4c4c4;
+  height: 1px;
+  width: 100%;
+}
+
+.or {
+  text-align: center;
+  background-color: white;
+  padding: 0 20px;
+  color: #c4c4c4;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.acc {
+  text-align: center;
+  padding: 40px;
+}
+
+.sc {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.bsu {
+  padding-top: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .rg {
+    flex-direction: row;
+    min-height: 100vh;
+  }
+
+  .ig {
+    height: auto;
+    flex-grow: 0.4;
+    flex-basis: 0;
+  }
+
+  .igt {
+    right: auto;
+    left: 20px;
+  }
+
+  .fa {
+    flex-grow: 0.6;
+    padding: 80px 80px 0 80px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

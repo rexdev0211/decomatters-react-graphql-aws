@@ -1,0 +1,293 @@
+.helpCenterContentContainer {
+  width: 90%;
+  max-width: 1608px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.helpCenterContentContainer h3 {
+  margin-top: 35px;
+}
+
+a,
+.helpCenterContentContainer a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover,
+.helpCenterContentContainer a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.helpCenterLeft {
+  /*display: none;*/
+  width: 0;
+}
+
+.sideMenuItems {
+  display: none;
+}
+.helpCenterRight {
+  width: 100%;
+  margin-top: 20px;
+}
+.helpCenterRight .contentParagraph {
+  visibility: hidden;
+  padding: 0;
+  height: 0;
+  color: #4f4f4f;
+  font-size: 16px;
+  display: none;
+  margin: 0;
+}
+
+.helpCenterRight .contentParagraph.active {
+  padding: 0 10px;
+  margin-bottom: 50px;
+  height: 100%;
+  visibility: visible;
+  display: block;
+}
+
+.header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 29px;
+
+  color: #000000;
+  background-color: #f5f5f5;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.active .header .arrow {
+  background: url(../../assets/faq/faqarrowright.png) no-repeat;
+  background-position: 0;
+  /*background-size: 10px;*/
+  background-position-x: 100%;
+  width: 20px;
+  height: 20px;
+  content: '';
+  position: absolute;
+  right: 16px;
+  top: initial;
+  transform: rotate(90deg);
+  cursor: hand;
+  object-fit: scale-down;
+}
+
+.header .arrow {
+  background: url(../../assets/faq/faqarrowright.png) no-repeat;
+  background-position: 0;
+  /*background-size: 10px;*/
+  background-position-x: 100%;
+  width: 20px;
+  height: 30px;
+  content: '';
+  position: absolute;
+  right: 16px;
+  transform: rotate(0);
+  cursor: hand;
+}
+
+.backBtnContainer {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.backBtnContainer svg {
+  display: block !important;
+}
+
+.backBtnContainer svg circle {
+  display: none;
+}
+
+.helpCenterTabContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 100px));
+  grid-auto-rows: 70px;
+  grid-gap: 35px;
+  justify-content: center;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-size: 20px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.helpCenterTabContainer::-webkit-scrollbar {
+  display: none;
+  width: 0px; /* Remove scrollbar space */
+  height: 0px;
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.helpCenterTabContainer .item {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+.helpCenterTabContainer .item p {
+  color: #8b8b8b;
+}
+.helpCenterTabContainer .selected.item p {
+  color: #000;
+}
+
+.helpCenterTabContainer div p {
+  display: inline-block;
+  margin: 0;
+  width: 100px;
+  padding: 15px;
+}
+
+.helpCenterTabContainer .selected p {
+  border-bottom: 2px solid #000;
+}
+
+.underline {
+  width: 90%;
+  border-bottom: 1px solid #d8d8d8;
+  margin: 0 auto;
+}
+
+.headerTitle {
+  display: inline-block;
+  width: 80%;
+  overflow: hidden;
+  /*white-space: nowrap;*/
+  font-size: 16px;
+}
+@media (min-width: 1024px) {
+  .helpCenterContentContainer {
+    margin-top: 50px;
+  }
+  .helpCenterLeft {
+    width: 33.3%;
+    display: block;
+  }
+
+  .helpCenterLeft ul {
+    position: sticky;
+    top: 150px;
+  }
+
+  .helpCenterRight {
+    width: 80%;
+    padding: 0 10%;
+    /*overflow-y: scroll;*/
+    -webkit-animation: appear 0.5s;
+    animation: appear 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    scroll-behavior: smooth;
+  }
+
+  ul.sideMenu li {
+    list-style: none;
+    padding: 10px;
+  }
+
+  ul.sideMenu li a {
+    color: #777777;
+  }
+
+  ul.sideMenu li.selected a {
+    border-bottom: 1px solid;
+    color: black;
+    font-weight: bold;
+    animation: boldAnimation 0.25s linear;
+  }
+
+  @keyframes boldAnimation {
+    from {
+      font-weight: normal;
+    }
+    to {
+      font-weight: bold;
+    }
+  }
+
+  .helpCenterRight .contentParagraph {
+    display: block;
+    padding: 0 20px;
+    margin-bottom: 50px;
+    visibility: visible;
+    height: 100%;
+    color: #4f4f4f;
+    font-size: 16px;
+  }
+  .helpCenterRight .contentParagraph.active {
+    padding: 0 20px;
+  }
+
+  .backBtnContainer {
+    top: -140px;
+    left: -100px;
+    display: block;
+    position: relative;
+  }
+
+  .backBtnContainer svg {
+    height: 40px;
+    width: 40px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+  }
+
+  .backBtnContainer svg:hover {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+  }
+
+  .helpCenterTabContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    grid-auto-rows: 80px;
+    grid-gap: 20px;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .helpCenterTabContainer .item {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .helpCenterTabContainer div p {
+    display: inline-block;
+    margin: 0;
+    width: 250px;
+    padding: 25px;
+  }
+
+  .underline {
+    width: 70%;
+  }
+
+  .header .arrow,
+  .active .header .arrow {
+    display: none;
+  }
+  .headerTitle {
+    font-size: 16px;
+  }
+
+  .sideMenuItems {
+    display: block;
+  }
+}

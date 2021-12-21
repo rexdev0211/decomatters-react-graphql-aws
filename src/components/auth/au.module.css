@@ -1,0 +1,290 @@
+.btng {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.btngi {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.con {
+  text-align: center;
+}
+
+.pic {
+  position: relative;
+}
+
+.pibg {
+  position: absolute;
+  top: 0;
+  background-image: url(../../assets/profile-bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.pdb {
+  padding-bottom: 25px;
+}
+
+.piw {
+  display: inline-block;
+  padding: 10px;
+  border: 8px solid #e5e5e5;
+  border-radius: 50%;
+}
+
+.pi {
+  width: 166px;
+  height: 166px;
+  border-radius: 80px;
+  object-fit: contain;
+}
+
+.acb {
+  background-image: url(https://didr9pubr8qfh.cloudfront.net/decor/bg_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  height: 100vh;
+}
+
+.cl {
+  position: absolute;
+  display: block;
+  margin: 13px 0 0 12px;
+  cursor: pointer;
+  fill: #333;
+  width: 25px;
+  height: 25px;
+  z-index: 100;
+}
+
+.dml {
+  position: absolute;
+  clip-path: url(#logo-only);
+  display: block;
+  margin: 13px 0 0 12px;
+  cursor: pointer;
+}
+
+.igt {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.bga {
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+}
+
+.bga a {
+  color: white;
+}
+
+.ct {
+  position: absolute;
+  box-shadow: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  height: auto;
+  overflow-y: auto;
+}
+
+.ccl {
+  display: none;
+  flex-basis: auto;
+  min-width: 280px;
+  max-width: 450px;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.ccdml {
+  height: 100px;
+  width: 300px;
+}
+
+.ccf {
+  flex: auto;
+  background-color: white;
+  box-shadow: none;
+  padding: 0 40px 0 40px;
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+.ccfdml {
+  height: 50px;
+  width: 150px;
+  padding-top: 60px;
+}
+
+.fc {
+  position: absolute;
+  background-color: white;
+  right: auto;
+  top: 150px;
+  box-shadow: none;
+  padding: 40px 40px 0 40px;
+  max-width: auto;
+}
+
+.ft {
+  text-align: center;
+  padding: 0;
+}
+
+.ft li {
+  display: inline;
+  padding: 0 4px;
+  color: #8b8b8b;
+  font-size: 12px;
+}
+
+.ft li a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 12px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cl line {
+    stroke: black;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .cl line {
+    stroke: black;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .cl {
+    fill: white;
+  }
+  .cl line {
+    stroke: white;
+  }
+
+  .ccdml {
+    height: 100px;
+    width: 300px;
+  }
+  .ccfdml {
+    padding-top: 0;
+  }
+
+  .ct {
+    height: 100%;
+  }
+
+  .ccf {
+    flex: 0 0 500px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 80px 80px 40px 80px;
+    margin: 0 20px;
+    height: auto;
+  }
+
+  .fc {
+    right: 70px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 80px 80px 0 80px;
+    max-width: 500px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .ccfdml {
+    display: none;
+  }
+
+  .ccl {
+    display: block;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (max-height: 786px) {
+  .igt {
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-weight: 500;
+    font-size: 15px;
+    bottom: initial;
+    padding: 0 10px;
+  }
+  .ccf {
+    margin-bottom: 50px;
+    margin-top: 20%;
+  }
+
+  .ccfdml {
+    padding-top: 30px;
+  }
+
+  .bga {
+    display: none;
+  }
+}
+
+/* iphone 5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+  .con {
+    font-size: 14px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 900px) {
+  .ccf {
+    margin: 0 0;
+    padding-bottom: 100px;
+  }
+
+  .ct {
+    overflow: hidden;
+  }
+  .ct {
+    overflow: hidden;
+  }
+}
+
+.dmcr {
+  display: inline-block;
+  margin: 10px 0 30px 0;
+}

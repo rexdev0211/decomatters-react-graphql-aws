@@ -1,0 +1,48 @@
+.claimButton {
+  height: 36px;
+  width: 120px;
+  border-radius: 72px;
+  background: #ffffff;
+  color: #ff5e6d;
+  transition: all 0.5s;
+  font: 14px Helvetica Neue;
+  border: none;
+  margin: auto 16px 16px auto;
+  position: relative;
+  font-weight: bold;
+}
+
+.claimButton:hover {
+  background: #ff5e6d;
+  color: #ffffff;
+}
+
+.claimButtonClaimable {
+  composes: claimButton;
+  background: #ff5e6d;
+  color: #ffffff;
+}
+
+.claimButtonClaimable:hover {
+  background: #ffffff;
+  color: #ff5e6d;
+}
+
+.claimButtonClaimed {
+  composes: claimButton;
+  background: #ededed;
+  color: #9b9b9b;
+  cursor: default;
+}
+
+.claimButtonClaimed:hover {
+  /* overrides hover styles from composed component so nothing changes on mouseover */
+  background: #ededed;
+  color: #9b9b9b;
+}
+
+@media (max-width: 500px) {
+  .claimButton {
+    margin: auto 12px 12px auto;
+  }
+}

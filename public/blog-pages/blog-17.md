@@ -1,0 +1,33 @@
+The excitement of starting interior design projects can quickly wear off and become stressful when you realize you have no idea where to begin. Fortunately, gathering ideas, playing with colors and patterns, and researching fabrics can be a fun creative process when combined to create a mood board. A mood board consists of an arrangement of images, materials, text, and more that are meant to illustrate a specific style or concept and be a collection of inspiration. Curating a mood board is the ultimate opportunity for you to be a visionary while staying organized and on track to designing your desired space for your next interior design projects.
+
+![mood board dark tones interior design](https://didr9pubr8qfh.cloudfront.net/blog/blog-page/blog-page-17/mood-board-dark-tones-interior-design.jpg)
+
+**Get started with samples**
+
+Starting with a blank canvas may feel overwhelming, but taking the time to gather some ideas and inspiration from your past likes on social platforms, such as Instagram and Pinterest, before you create a mood board helps provide you with an insight of what you already like. Likewise, it saves you time from considering every option out there by reducing them to colors and styles you’re looking for in your particular interior design project. By researching what you’re interested in, you can create a list of notes and adjectives that describe your style for you to revisit and refer to throughout as you create a mood board.
+
+After getting a better feel of what you’re looking for, it’s time to make some color and flooring decisions to set a foundation for your mood board. A great way to test out what colors mesh well together and what tile or hardwood floor clashes with them is to collect free or reasonably priced carpet and tile samples and paint swatches. A mood board conveniently helps you visualize samples together and immediately envision what works together and what doesn’t for your space and style.
+
+![mood board pink purple interior design](https://didr9pubr8qfh.cloudfront.net/blog/blog-page/blog-page-17/mood-board-pink-purple-interior-design.jpg)
+
+**Find furniture and accessories**
+
+Once you decide on a color palette, you can gather images that resemble that shade through furniture or accessories. If you find yourself considering options that don’t mix well together, try creating multiple themes. This can help you determine which end result you like most or reveal unexpected color and texture combinations you’re drawn to that could work well in your space. The fun part about creating a mood board is that if you genuinely like a color, a piece of furniture, bedding, curtains, or any element included in your interior design project, you can clip, copy, snap, or save them to your mood board easily.
+
+The simplest and most efficient way to continue building your mood board after focusing on colors and flooring is to start with larger items, such as a sofa, a headboard, a dresser, a dining room table, or a prominent light fixture. Having these larger items chosen first will give you a better idea of what to place around or on top of these pieces and ensure that everything goes well together. With the furnishings in place and a better sense of the layout of a room, the last step is to add pieces of your personality throughout the space with accessories. Accessories can be pieces that go with your theme or speak to your personality. For example, if you are a homebody, add throw blankets and soft textures to make your space feel warm and cozy. If you [love the look of glamour](https://decormatters.app/blog/14/decorating-on-a-budget-glam-home-decor-ideas), add mirrors and metallic accents to showcase your style.
+
+![mood board beach summer interior design](https://didr9pubr8qfh.cloudfront.net/blog/blog-page/blog-page-17/mood-board-beach-summer-interior-design.jpg)
+
+**Get creative and inspired to take a risk**
+
+A mood board doesn’t always have to be inspired by research or consistent online or in-store search efforts. You can find inspiration at places you visit, outdoor encounters with people, architecture, nature, decor and furniture you come across in people’s homes, and pretty colors you saw on a flower or random wall during a walk. Anything and everything can be an inspiration and easily added to your mood board through pictures, screenshots, doodles, note-taking, and more. You can also collect items you have that may hold a shape, color, or overall feel of something you want to incorporate into your interior design projects.
+
+There’s no better time to experiment with bold colors, different textures, and unique patterns and to mix elements that you’d never consider doing before than when designing a mood board. A mood board is a safe space for trial and error. You can easily pin and unpin items and colors you love or no longer like and go beyond your comfort zone of style and see where it leads you. New items can be added and old ones can be switched out easily. This simple interchangeable feature makes a mood board a forgiving creative base to come up with the best designs for your space. Additionally, it can possibly save you from wasting time and effort imagining or purchasing all items and colors to see how it works in a room because it allows you to visualize what works together and what doesn’t before committing to an idea.
+
+When constructing a mood board, it’s crucial to only add pieces that inspire your style and are relevant to the mood you want your space to portray. This step is especially important to help you stay on track with your interior design projects to ensure that your personal style is shown. Mood boards are great at keeping you focused as it helps narrow your options to colors and styles that best represent your interior design goals. It’s best to work room by room to keep things organized and efficient.
+
+![digital app mood board](https://didr9pubr8qfh.cloudfront.net/blog/blog-page/blog-page-17/digital-app-mood-board.jpg)
+
+**Take it one step further**
+
+Creating physical mood boards may not be as common or convenient in 2019 because as the digital space continues growing, so has the popularity of simply creating mood boards digitally on laptops and phones. With the [free DecorMatters app](https://decormatters.app.link/how-to-create-mood-board/interior-design), you can transform your mood boards into a virtual reality by choosing furniture and decor pieces from actual stores to design your space. Through Augmented Reality and ARKit measure, scaling 3D furniture with real dimensions has never been easier. From rugs to wall decor and light fixtures, the DecorMatters app helps you design every detail of your space and make your mood board come to life.

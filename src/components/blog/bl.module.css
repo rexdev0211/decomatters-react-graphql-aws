@@ -1,0 +1,168 @@
+.bc {
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 40px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.bc:hover {
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bs {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.bcc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bic {
+  flex: none;
+  height: 240px;
+  overflow: hidden;
+}
+
+.bdc {
+  margin: 36px 12px;
+}
+
+.bti {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pt {
+  font-size: 14px;
+  color: #828282;
+}
+
+.bt {
+  font-size: 24px;
+}
+
+.bp {
+  color: #4f4f4f;
+}
+
+.bpi {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.ti {
+  font-weight: bold;
+}
+
+.ac {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  position: relative;
+}
+
+.acc {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.an {
+  display: block;
+  margin-left: 8px;
+}
+
+.sm {
+  margin-top: 10px;
+  display: block;
+}
+
+.shareMobile {
+  display: none;
+  position: relative;
+}
+
+.shareButtonIcon {
+  background: url(../../assets/shareblog.png) no-repeat;
+  /*height: 20px;*/
+  /*width: 18px;*/
+  padding: 15px;
+  outline: none;
+  border: none;
+}
+
+.shareButtonIcon:hover {
+  background: url(../../assets/shareblog-hover.png) no-repeat;
+  /*height: 20px;*/
+  /*width: 18px;*/
+  top: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .sm {
+    display: none;
+    margin-top: 0;
+  }
+
+  .shareMobile {
+    margin-top: 0;
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ac {
+    flex-direction: row;
+  }
+
+  .acc {
+    justify-content: space-between;
+  }
+
+  .sm {
+    margin-top: 0;
+  }
+
+  .bcc {
+    flex-direction: row;
+  }
+
+  .bic {
+    flex: 0 0 471px;
+  }
+
+  .bdc {
+    margin: 0 36px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

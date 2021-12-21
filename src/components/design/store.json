@@ -1,0 +1,177 @@
+[
+  {
+    "indixStoreId": "2xhome-00000",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/2X.jpg",
+    "storeName": "2xhome",
+    "categoryId": "18243",
+    "processed": false
+  },
+  {
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/apt2b.png",
+    "storeName": "APT 2B",
+    "indixStoreId": "apt2b-00000",
+    "categoryId": "10001",
+    "processed": false
+  },
+  {
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/arhaus.png",
+    "storeName": "Arhaus",
+    "indixStoreId": "arhaus",
+    "categoryId": "17006",
+    "processed": false
+  },
+  {
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/article.png",
+    "storeName": "Article",
+    "indixStoreId": "article-00000",
+    "categoryId": "10001",
+    "processed": false
+  },
+  {
+    "storeName": "Avocado",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/avocado.png",
+    "indixStoreId": "avocado-00000",
+    "categoryId": "16703",
+    "processed": false
+  },
+  {
+    "storeName": "Brass & Burl",
+    "indixStoreId": "brassandburl-00000",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/brassandBurl.png",
+    "categoryId": "10001",
+    "processed": false
+  },
+  {
+    "storeName": "Burrow",
+    "indixStoreId": "burrow-00000",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/burrow.png",
+    "categoryId": "17006",
+    "processed": false
+  },
+  {
+    "indixStoreId": "carolinarustica-00000",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/carolinaRustica.png",
+    "storeName": "Carolina Rustica",
+    "categoryId": "10001",
+    "processed": false
+  },
+  {
+    "storeName": "Ettitude",
+    "indixStoreId": "ettitude-00000",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/ettitude.png",
+    "categoryId": "16703",
+    "processed": false
+  },
+  {
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/furniturelandsouth.png",
+    "storeName": "Furnitureland South",
+    "indixStoreId": "furniturelandsouth-00000",
+    "categoryId": "17006",
+    "processed": false
+  },
+  {
+    "storeName": "LA Z BOY",
+    "indixStoreId": "5049",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/lazboy.png",
+    "categoryId": "17006",
+    "processed": false
+  },
+  {
+    "storeName": "Lounging Bear",
+    "indixStoreId": "loungingbear",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/loungingBear.png",
+    "categoryId": "17006",
+    "processed": true
+  },
+  {
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/luluandgeorgia.png",
+    "storeName": "LULU and Georgia",
+    "indixStoreId": "luluandgeorgia-00000",
+    "categoryId": "17006",
+    "processed": false
+  },
+  {
+    "indixStoreId": "minted",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/minted.png",
+    "storeName": "minted",
+    "categoryId": "10001",
+    "processed": true
+  },
+  {
+    "indixStoreId": "mobley",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/mobley.png",
+    "storeName": "mobley",
+    "categoryId": "17006",
+    "processed": true
+  },
+  {
+    "indixStoreId": "mptv-00000",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/mptv.png",
+    "storeName": "MPTV",
+    "categoryId": "10001",
+    "processed": false
+  },
+  {
+    "indixStoreId": "overstock-00000",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/overstock.png",
+    "storeName": "Overstock",
+    "categoryId": "17006",
+    "processed": false
+  },
+  {
+    "indixStoreId": "pier1-00000",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/pier1.png",
+    "storeName": "Pier1",
+    "categoryId": "10001",
+    "processed": false
+  },
+  {
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/pipa.png",
+    "indixStoreId": "pipafineart-00000",
+    "storeName": "Pipa Fine Art",
+    "categoryId": "10001",
+    "processed": false
+  },
+  {
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/reclaimarbor.png",
+    "storeName": "Reclaimarbor",
+    "indixStoreId": "reclaimarbor-00000",
+    "categoryId": "10001",
+    "processed": false
+  },
+  {
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/ruggable.png",
+    "storeName": "Ruggable",
+    "indixStoreId": "ruggable-00000",
+    "categoryId": "10001",
+    "processed": true
+  },
+  {
+    "storeName": "society6",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/society6.png",
+    "indixStoreId": "society6",
+    "categoryId": "17006",
+    "processed": true
+  },
+  {
+    "storeName": "Wayfair",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/wayfair.png",
+    "indixStoreId": "wayfair-00000",
+    "categoryId": "10001",
+    "processed": false
+  },
+  {
+    "storeName": "World market",
+    "indixStoreId": "worldmarket-00000",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/worldmarket.png",
+    "categoryId": "17006",
+    "processed": false
+  },
+  {
+    "indixStoreId": "yliving-00000",
+    "storeName": "YLiving",
+    "imageName": "https://decormatters-3dmodels.s3-us-west-2.amazonaws.com/brandLogo/yliving.png",
+    "categoryId": "17006",
+    "processed": false
+  }
+]

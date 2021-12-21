@@ -1,0 +1,78 @@
+.wrapper {
+  position: relative;
+}
+
+.icon circle {
+  fill: #ffffff;
+  transition: fill 0.3s;
+}
+
+.icon path {
+  fill: #ff5e6d;
+  transition: fill 0.3s;
+}
+
+.icon:hover circle {
+  fill: #ff5e6d;
+}
+
+.icon:hover path {
+  fill: #ffffff;
+}
+
+.tooltip {
+  position: absolute;
+  display: none;
+  right: 80px;
+  top: 16px;
+  width: 111px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #888888;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+}
+
+.tooltip:after {
+  content: '';
+  position: absolute;
+  right: -2px;
+  top: 16px;
+  background: #888888;
+  width: 6px;
+  height: 10px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.wrapper:hover .tooltip {
+  display: block;
+}
+
+.qrTooltip {
+  composes: tooltip;
+  width: 234px;
+  height: 281px;
+  border-radius: 10px;
+  top: 8px;
+}
+
+.qrTooltip:after {
+  width: 11px;
+  height: 19px;
+  top: 20px;
+  right: -3px;
+}
+
+.claimableDot {
+  width: 8px;
+  height: 8px;
+  background-color: #ff5e6d;
+  border-radius: 100%;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}

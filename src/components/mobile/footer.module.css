@@ -1,0 +1,89 @@
+/* Extra small devices (phones, 600px and down) */
+.mobileFooterContainer {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobileFooterContainer {
+    position: fixed;
+    bottom: 0;
+    /*background: linear-gradient(to bottom, #FFF2F3, #FFF2F3, #FFF2F3, #FFF2F3, transparent);*/
+    background-color: #fff2f3;
+    width: 100%;
+    height: 275px;
+    text-align: center;
+    display: block;
+    z-index: 2;
+  }
+
+  .mobileFooterContainer .logo {
+    margin: 20px 0;
+  }
+
+  .mobileFooterContainer .switchBtn {
+    background-color: #ff5e6d;
+    border-radius: 37px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    user-select: none;
+    outline: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  .mobileFooterContainer .msgContainer {
+    text-align: center;
+  }
+
+  .mobileFooterContainer .msg {
+    width: 350px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    display: inline-block;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .mobileFooterContainer .msgHeader {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .mobileFooterContainer .cancelCTA {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #8b8b8b;
+  }
+
+  .mobileFooterContainer .cancelCTA:hover {
+    cursor: pointer;
+  }
+
+  .mobileFooterContainer.hide {
+    display: none;
+  }
+}

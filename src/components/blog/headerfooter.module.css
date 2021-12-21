@@ -1,0 +1,243 @@
+.header {
+  height: 200px;
+  padding: 20px;
+  color: white;
+  background-image: url(../../assets/images/blogheader.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: right;*/
+  position: relative;
+}
+
+.header .text h1 {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 22px;
+  /* identical to box height, or 61% */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.header .text span {
+  font-family: SignPainter;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 22px;
+  /* identical to box height, or 41% */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.footer {
+  height: 100%;
+  padding: 2% 10% 0 10%;
+  color: white;
+  background-image: url(../../assets/images/blogfooter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: right;*/
+  position: relative;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer .text {
+  margin-top: 20px;
+}
+.footer .logoSocialContainer {
+  width: auto;
+}
+
+.footer .logoSocialContainer .headline {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  /*line-height: 40px;*/
+  /* or 167% */
+
+  align-items: center;
+  letter-spacing: 0.01em;
+  margin: 10px 0 20px 0;
+  color: #000000;
+}
+
+.footer ul.blogSocialMediaContainer {
+  margin: 0;
+  padding: 0;
+  margin-left: -15px;
+}
+.footer ul.blogSocialMediaContainer li {
+  display: inline-block;
+  cursor: pointer;
+  list-style: none;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+
+.footerLinks {
+  color: black;
+  display: flex;
+}
+
+.footerLinks ul {
+  margin-right: 30px;
+}
+.footerLinks li {
+  list-style: none;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 40px;
+  /* or 286% */
+  cursor: pointer;
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+.footerLinks li a,
+.footer .footerLinks button {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 40px;
+  /* or 286% */
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+  text-decoration: none;
+}
+.footerLinks button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.footer .logoContainer {
+  padding: 0;
+  margin-left: -25px;
+}
+
+.footer .bottomCaption {
+  display: flex;
+  width: 100%;
+  padding: 5px 0;
+  border-top: 1px solid #e5e5e5;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 48px;
+  /* identical to box height, or 369% */
+
+  letter-spacing: 0.01em;
+  text-align: left;
+
+  color: #8b8b8b;
+  background-color: #f2f2f2;
+  justify-content: space-between;
+}
+
+.footer .bottomCaption .reserved {
+  width: 100%;
+}
+
+.footer .bottomCaption .designsCreated {
+  width: 100%;
+  text-align: right;
+  padding-right: 45px;
+}
+
+.footer .bottomCaption .designsCreated span {
+  display: inline-block;
+  color: black;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header .text h1 {
+    width: 100%;
+  }
+  .footer {
+    height: 100%;
+    padding: 20px 0 0 0;
+    margin: 0;
+    flex-direction: column;
+    background-image: none;
+    flex-wrap: nowrap;
+  }
+  .footer .bottomCaption {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    border-top: 1px solid #e5e5e5;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 48px;
+    /* identical to box height, or 369% */
+
+    letter-spacing: 0.01em;
+    text-align: center;
+
+    color: #8b8b8b;
+    background-color: #f2f2f2;
+    /*justify-content: space-between;*/
+  }
+
+  .footer .bottomCaption .designsCreated {
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer .logoSocialContainer .logoContainer div {
+    display: inline-block;
+    text-align: center;
+  }
+  .footer .logoSocialContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer .logoSocialContainer .headline {
+    font-size: 20px;
+  }
+
+  .footerLinks {
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footerLinks li {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 30px;
+    /* or 231% */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+  }
+}

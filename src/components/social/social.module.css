@@ -1,0 +1,501 @@
+/*.likeContainer {*/
+/*    position: absolute;*/
+/*    width: 63.89px;*/
+/*    height: 25.96px;*/
+/*}*/
+.shareContainer.blogContainer {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+}
+.likeContainer,
+.saveContainer {
+  display: flex;
+  margin-left: 14px;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.heartBtn,
+.saveBtn,
+.giftBtn,
+.shareBtn {
+  /*padding: 0;*/
+  min-width: 64px;
+  cursor: pointer;
+  background: #F3F3F4;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heartBtn:hover,
+.saveBtn:hover,
+.giftBtn:hover,
+.shareBtn:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.shareBtn {
+  width: 70px;
+  height: 26px;
+}
+
+.heartBtn .heart,
+.saveBtn .save {
+  padding: 5px 0 0 0;
+}
+
+.shareBtn .share {
+  padding: 5px 0 10px 10px;
+}
+.heartBtn svg path,
+.shareBtn svg path,
+.saveBtn svg path {
+  display: inline-block;
+  fill: rgba(15, 13, 34, 0.8);
+  stroke-width: 1;
+  stroke: rgba(15, 13, 34, 0.8);
+}
+
+.giftBtn svg path {
+  fill: rgba(15, 13, 34, 0.8);
+}
+
+.shareContainer.blogContainer div.blogShareIcons svg path {
+  display: inline-block;
+  fill: unset;
+  stroke-width: 1.5;
+}
+
+/*social*/
+
+.heartBtn:hover path,
+.saveBtn:hover path,
+.shareBtn:hover path {
+  fill: rgba(15, 13, 34, 1);
+  stroke-width: 1;
+  stroke: rgba(15, 13, 34, 1);
+}
+
+.giftBtn:hover path {
+  fill: rgba(15, 13, 34, 1);
+}
+
+.heartBtn.active path,
+.saveBtn.active path {
+  fill: #FF5E6D;
+  stroke-width: 1;
+  stroke: #FF5E6D;
+}
+
+.heartBtn span,
+.saveBtn span,
+.giftBtn span,
+.shareBtn span {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  padding: 5px;
+  color: rgba(15, 13, 34, 0.8);
+}
+
+.heartBtn:hover span,
+.saveBtn:hover span,
+.giftBtn:hover span,
+.shareBtn:hover span {
+  color: rgba(15, 13, 34, 1);
+}
+
+.heartBtn.active span,
+.saveBtn.active span {
+  color: #FF5E6D;
+}
+
+.shareBtn {
+  padding: 0px;
+}
+
+.shareBoxContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.shareBox {
+  position: absolute;
+  min-width: 450px;
+  max-width: 100%;
+  /* height: 100px; */
+  background-color: white;
+  padding: 30px 50px 20px 50px;
+  margin: 0 auto;
+  top: 0px;
+  left: 35%;
+  text-align: center;
+  border-radius: 10px;
+  display: none;
+}
+
+.shareBox.hide {
+  -webkit-animation: fadeOutNormal 0.6s;
+  animation: fadeOutNormal 0.6s;
+}
+
+@-webkit-keyframes fadeOutNormal {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOutNormal {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    height: 365px;
+  }
+  to {
+    height: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    height: 365px;
+  }
+  to {
+    height: 0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    height: 0;
+  }
+  to {
+    height: 365px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    height: 0;
+  }
+  to {
+    height: 365px;
+  }
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.closeBtn svg {
+  width: 10px;
+  height: 10px;
+  fill: #828282;
+}
+
+.shareBox h2 {
+  /* H2-Heading-Bold-Black-24px */
+
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+
+.shareContainer.blogContainer .shareBtn {
+  background-color: transparent;
+}
+
+.updateBtn {
+  cursor: pointer;
+  background: #F3F3F4;
+  border-radius: 10px;
+  padding: 12px 10px;
+  display: flex;
+  min-width: 64px;
+  align-items: center;
+  justify-content: center;
+}
+
+.updateBtn:hover {
+  background: #E7E7E9;
+}
+
+.updateBtn svg {
+  margin-right: 12px;
+  zoom: 0.9;
+}
+
+.updateBtn span {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #0F0D22;
+}
+
+.updateBtn.active {
+  background: #FFEAEC;
+  border-radius: 10px;
+}
+
+.updateBtn.active path {
+  fill: #FF5E6D;
+  stroke-width: 1;
+  stroke: #FF5E6D;
+}
+
+.updateBtn.active span {
+  color: #FF5E6D;
+}
+
+.imgBtn > img{
+  width: 18px !important;
+  height: 18px !important;
+  margin-right: 12px;
+}
+
+.allgiftBtn {
+  cursor: pointer;
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 7px;
+  background: #F3F3F4;
+  border-radius: 100px;
+}
+
+.allgiftBtn img {
+  width: 91px !important;
+  height: 32px !important;
+}
+
+.allgiftBtn span {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #0F0D22;
+  margin-right: 10px;
+}
+
+.allgiftBtn:hover {
+  background: #E7E7E9;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mediaContainer {
+    width: 100%;
+  }
+
+  .shareContainer {
+    display: inline-block;
+  }
+
+  .shareContainer.blogContainer {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+  }
+  .shareContainer .shareText {
+    display: none;
+  }
+
+  .shareBox {
+    position: fixed;
+    /* min-width: 450px; */
+    /* max-width: 100%; */
+    min-width: 0px;
+    max-width: 100%;
+    /* height: 100px; */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    padding: 10px 0 60px 0;
+    /* padding: 30px 50px 20px 50px; */
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    bottom: 0 !important;
+    height: 380px;
+    width: 100%;
+    top: unset;
+    left: unset;
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s;
+  }
+
+  .shareBox.hide {
+    -webkit-animation: fadeOut 0.6s;
+    animation: fadeOut 0.6s;
+  }
+
+  .shareBox .shareHeader {
+    font-size: 16px;
+    /*box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);*/
+    padding: 10px 0 15px 0;
+    margin: 0;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .closeBtn {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+    width: 10px;
+  }
+
+  .likeContainer div {
+    margin-left: 0px !important;
+  }
+
+  .heartBtn svg path,
+  .shareBtn svg path,
+  .saveBtn svg path {
+    display: inline-block;
+    fill: #c4c4c4;
+    stroke-width: 1;
+    stroke: #c4c4c4;
+  }
+
+  /*social*/
+
+  .heartBtn:hover path,
+  .saveBtn:hover path,
+  .shareBtn:hover path {
+    fill: #c4c4c4;
+    stroke-width: 1;
+    stroke: #c4c4c4;
+  }
+
+  .heartBtn.active path,
+  .saveBtn.active path {
+    fill: #f00;
+    stroke-width: 1;
+    stroke: #f00;
+  }
+  .shareBtn {
+    /*margin-top: 0px;*/
+    margin-left: 10px;
+    padding: 1px 5px 5px 10px;
+  }
+
+  .shareContainer.blogContainer .shareBtn {
+    background-color: transparent;
+  }
+}
+
+/* iphone 5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+  .shareBox {
+    position: fixed;
+    /* min-width: 450px; */
+    /* max-width: 100%; */
+    min-width: 0px;
+    max-width: 100%;
+    /* height: 100px; */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    padding: 10px 0 60px 0;
+    /* padding: 30px 50px 20px 50px; */
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    bottom: 0 !important;
+    height: 320px;
+    width: 100%;
+    top: unset;
+    left: unset;
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s;
+  }
+  @-webkit-keyframes fadeOut {
+    from {
+      height: 320px;
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      height: 320px;
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {
+      height: 0;
+    }
+    to {
+      height: 320px;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      height: 0;
+    }
+    to {
+      height: 320px;
+    }
+  }
+}

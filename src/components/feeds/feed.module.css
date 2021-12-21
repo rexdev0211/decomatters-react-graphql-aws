@@ -1,0 +1,296 @@
+.inspirationContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.inspirationTitle {
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+
+  text-overflow: ellipsis;
+  padding: 0 20px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.inspiration {
+  margin: 20px 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, minmax(320px, 320px));
+  grid-auto-rows: 320px 320px;
+  grid-auto-flow: dense;
+}
+
+.inspiration .item {
+  position: relative;
+}
+
+.inspiration .item img.inspirationImg,
+.inspiration .item img.userImg {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #979797;
+}
+
+.inspiration .item img.userImg {
+  border-radius: 40px;
+}
+.inspiration .item img.inspirationImg {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-animation: appear 1s;
+  animation: appear 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.inspiration .item:hover img.inspirationImg {
+  cursor: pointer;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.item:first-child {
+  /*grid-column: span 2;*/
+  grid-area: 1/ 1 / span 1 / span 1;
+}
+
+.item:nth-child(5n) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/*Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .inspiration {
+    margin: 20px 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, minmax(220px, 320px));
+    grid-auto-rows: 220px 320px;
+    grid-auto-flow: dense;
+  }
+}
+
+/*Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .inspiration {
+    margin: 20px 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, minmax(220px, 320px));
+    grid-auto-rows: 220px 320px;
+    grid-auto-flow: dense;
+  }
+}
+
+/*Iphonx X landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+  .inspiration {
+    margin: 20px 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, minmax(220px, 320px));
+    grid-auto-rows: 220px 320px;
+    grid-auto-flow: dense;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  .inspiration {
+    margin: 20px 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, minmax(220px, 320px));
+    grid-auto-rows: 220px 320px;
+    grid-auto-flow: dense;
+  }
+}
+
+@media (max-width: 600px) {
+  .inspiration {
+    margin: 32px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, minmax(350px, 250px));
+    grid-auto-rows: 350px;
+    grid-auto-flow: dense;
+  }
+  .inspiration .item img.inspirationImg,
+  .inspiration .item img.userImg {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #979797;
+    min-height: 350px;
+  }
+}
+
+.socialBtn,
+.userProfile {
+  display: none;
+  position: absolute;
+}
+
+.item:hover .socialBtn {
+  display: block;
+}
+
+.item:hover .userProfile {
+  display: flex;
+}
+
+.shareBtn {
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+/* Share text on home page */
+.shareBtn span,
+.socialBtnBottom span {
+  line-height: 13px !important;
+}
+
+.item:hover .socialBtnBottom {
+  display: flex;
+}
+
+.userProfile {
+  position: absolute;
+  top: 0px;
+  width: 30px;
+  height: 30px;
+  left: 10px;
+  margin-top: 10px;
+  /*display: flex;*/
+  align-items: center;
+}
+
+.userProfile .userImg {
+  margin-right: 5px;
+}
+
+.userProfile .userName {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+  width: 100%;
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.shareBtn svg,
+.socialBtnBottom svg {
+  width: 15px;
+  height: 15px;
+}
+
+.socialBtnBottom {
+  display: none;
+  position: absolute;
+  bottom: 55px;
+  right: 10px;
+}
+
+.inspiration .socialBtnBottom {
+  display: none;
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+}
+
+.userInfoHeader {
+  display: none;
+}
+
+.socialContainer {
+  display: none;
+}
+
+.relatedDesign .userProfile .userImg {
+  width: 20px;
+  height: 20px;
+  border-radius: 40px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .inspiration {
+    display: block;
+    margin: 0;
+  }
+
+  .inspiration .item {
+    margin-bottom: 70px;
+  }
+
+  .item:hover .userProfile .userImg,
+  .item:hover .userProfile .userName {
+    display: none;
+  }
+
+  .item:hover .shareBtn {
+    top: 100px;
+  }
+
+  .userInfoHeader {
+    display: block;
+  }
+
+  .socialContainer {
+    display: block;
+    padding: 0 15px 0 0;
+  }
+
+  .socialBtnBottom {
+    display: none;
+  }
+
+  .item:hover .socialBtnBottom {
+    display: none;
+  }
+
+  .socialBtn.shareBtn {
+    display: none;
+  }
+
+  .item:hover .socialBtn {
+    display: none;
+  }
+}

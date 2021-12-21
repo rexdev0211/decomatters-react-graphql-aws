@@ -1,0 +1,79 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700');*/
+.flexbox {
+  /*width: 15px;*/
+  display: inline-block;
+}
+.search {
+  /*margin: 20px;*/
+}
+
+.search > h3 {
+  font-weight: normal;
+}
+
+/*.inputSearchBlog::placeholder {*/
+/*  !*color: #828282;*!*/
+/*  color: white;*/
+/*  opacity: 1;*/
+/*}*/
+
+/*.inputSearchBlog::-ms-placeholder {*/
+/*  color: black;*/
+/*}*/
+
+/*.inputSearchBlog::-ms-input-placeholder {*/
+/*  color: black;*/
+/*}*/
+
+.inputSearchBlog {
+  width: 1px;
+  /*box-sizing: border-box;*/
+  border: none;
+  /*border: 2px solid #ccc;*/
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  /*background-size: 20px;*/
+  background-position: 12px 12px;
+  padding: 12px 20px 12px 50px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  color: white;
+  content: '';
+  cursor: pointer;
+  background: url(../../assets/blogsearch.png) no-repeat;
+  background-position: 10px;
+  background-size: 30px 30px;
+  box-shadow: none;
+}
+
+.inputSearchBlog:hover {
+  background: url(../../assets/blogsearch-hover.png) no-repeat;
+  background-size: 30px 30px;
+  background-position: 10px;
+}
+
+input.inputSearchBlog::placeholder {
+  color: white;
+}
+input.inputSearchBlog:focus::placeholder {
+  color: #828282;
+}
+
+input.inputSearchBlog:focus,
+input.inputSearchBlog:valid {
+  width: 200px;
+  border: 3px solid #f2f2f2;
+  border-radius: 40px;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .flexbox {
+    margin-right: 150px;
+  }
+
+  input.inputSearchBlog {
+    width: 100px;
+  }
+}

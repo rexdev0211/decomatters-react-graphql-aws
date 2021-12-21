@@ -1,0 +1,345 @@
+.column {
+  float: left;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.left {
+  width: 25%;
+  /*overflow-y: scroll;*/
+  position: fixed;
+  float: left;
+  height: 100%;
+  margin: 0 0 100px 0;
+}
+
+.left:hover {
+  overflow-y: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.left::-webkit-scrollbar {
+  /*display: none;*/
+  width: 0;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.left {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.right {
+  width: 75%;
+  position: fixed;
+  /*overflow: hidden;*/
+  float: right;
+  /*height: 110vh;*/
+  margin-bottom: 50px;
+  background-color: #f7f7f7;
+  right: 0;
+  padding-left: 30px;
+}
+
+.profileImage {
+  width: 148px;
+  height: 148px;
+  background-size: cover;
+  border-radius: 50%;
+  background-color: rgb(245, 245, 245);
+  box-shadow: none;
+  user-select: none;
+  border: 0px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.last {
+  margin-bottom: 350px;
+}
+.level {
+  margin: 0;
+  position: absolute;
+  z-index: 2;
+  bottom: 3px;
+  right: 0;
+  border-radius: 10px;
+  padding: 2px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  user-select: none;
+  color: white;
+  background-color: rgb(255, 94, 109);
+  width: initial;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 24px;
+  flex: 0 0 50px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-self: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-weight: 500;
+
+  user-select: none;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+}
+
+.aboutMe {
+  margin: 10px;
+  /*flex: 0 0 50px;*/
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-self: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  user-select: none;
+  color: #8b8b8b;
+  background-color: transparent;
+}
+
+.followContainer {
+  margin: 10px 0px;
+  background: rgb(245, 245, 245);
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  place-content: stretch;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+}
+
+.followCountContainer {
+  margin: 40px 0;
+}
+.followingCount,
+.followerCount {
+  flex: 1 1 auto;
+  padding: 13px;
+}
+
+.countNumber {
+  padding: 0px 0px 4px;
+  margin: 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  user-select: none;
+  color: rgb(0, 0, 0);
+}
+
+.followingText {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-size: 14px;
+  user-select: none;
+  color: rgb(0, 0, 0);
+}
+
+.followDivider {
+  flex: 0 0 1px;
+  background: rgb(218, 218, 218);
+}
+
+.badgeContainer {
+  text-align: left;
+  display: flex;
+  flex-flow: column nowrap;
+  -webkit-box-pack: start;
+  place-content: stretch flex-start;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  padding: 16px 0px;
+  margin: 0px 0 50px 0;
+  gap: 3px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  user-select: none;
+}
+
+.badgeHeader {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.badgeList {
+  cursor: grab;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  overflow: hidden;
+  color: white;
+}
+
+.badge {
+  margin-right: 8px;
+}
+
+.circleCount {
+  background: #ffe3e3;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex; /* or inline-flex */
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  margin-top: 5px;
+  color: #ef6971;
+}
+
+.hide {
+  display: none;
+}
+.myPostContainer {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  height: 100%;
+  overflow: scroll;
+  margin: 20px 0;
+}
+
+.myPostCard {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  position: relative;
+  min-width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2px;
+  /*overflow: hidden;*/
+  user-select: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.tabContainer {
+  flex: 0 0 0%;
+  padding-top: 56px;
+  width: 90%;
+}
+
+.tabList {
+  position: relative;
+  user-select: none;
+  width: 100%;
+  height: 47px;
+  overflow: hidden;
+}
+
+.tabListInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*overflow: auto;*/
+  padding-bottom: 15px;
+}
+
+.tabListListContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+.tabListListContainer ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin: 0px;
+  white-space: nowrap;
+}
+
+.tabListListContainer ul li {
+  display: inline-block;
+  text-underline: #6b6b6b;
+}
+
+.separator {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border-bottom: 2px solid rgb(229, 229, 229);
+}
+
+.inspiration {
+  width: 320px;
+  height: 320px;
+  position: relative;
+}
+
+.mobilePostHeader {
+  display: none;
+}
+@media only screen and (max-width: 900px) {
+  .profileDesktop {
+    /*display: none;*/
+  }
+  .showWeb {
+    display: block;
+  }
+  .right {
+    /*display: none;*/
+    /*float: left;*/
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+  }
+  .left {
+    width: 100%;
+    position: relative;
+    margin: 0;
+  }
+  .profileMainData {
+    z-index: 100;
+    width: 100%;
+  }
+
+  .myPostContainer {
+    overflow: hidden;
+    margin: 20px 20px;
+  }
+
+  .inspiration {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .inspiration header {
+    display: none;
+  }
+  .tabContainer {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .mobilePostHeader {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+  .tabList {
+    position: relative;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}

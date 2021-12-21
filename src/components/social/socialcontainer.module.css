@@ -1,0 +1,85 @@
+.socialContainer {
+  /*float: right;*/
+  /*position: relative;*/
+  /*margin-right: 10px;*/
+}
+.shareMediaContainer {
+  display: flex;
+}
+
+.shareMediaContainer > div {
+  margin-right: 14px;
+}
+
+.shareMediaContainer > div:first-child {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mediaContainer {
+  display: flex;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+
+.likeContainer {
+  float: left;
+  cursor: pointer;
+  position: relative;
+  margin-right: 5px;
+}
+
+.shareBtnArrow {
+  display: none;
+}
+
+.saveContainer {
+  float: left;
+  cursor: pointer;
+  position: relative;
+  margin-right: 0px;
+  width: 25px;
+}
+
+.likeContainer div {
+  float: left;
+  line-height: 18px;
+  margin-left: 0px;
+}
+
+.likeContainer div div {
+  width: 100%;
+  margin-right: 0;
+}
+
+.socialContainer svg {
+  padding: 0px !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mediaContainer {
+    width: 100%;
+  }
+
+  .likeContainer {
+    float: left;
+  }
+
+  .saveContainer {
+    float: right;
+    margin-right: 10px;
+  }
+
+  .socialContainer {
+    width: 100%;
+    float: left;
+  }
+
+  .shareBtnArrow {
+    display: block;
+  }
+  .shareMediaContainer {
+    display: none;
+  }
+}
